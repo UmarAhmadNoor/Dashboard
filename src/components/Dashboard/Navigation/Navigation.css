@@ -1,0 +1,209 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.maincontainer
+{
+    
+/* background: linear-gradient(to top right , rgb(0, 100, 67) , rgb(3, 70, 28)); */
+    background-color: black;
+    height: 100vh;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    gap: 150px;
+ 
+}
+.name-mail
+{
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.heading
+{
+    display: flex;
+    flex-direction: column;
+  line-height: 20%;
+}
+.rightcontainer
+{
+    height:880px;
+    width: 1250px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks-style
+{
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.name
+{
+    font-size: 30px;
+}
+.mail
+{
+   font-size: 17px;
+}
+.nav-links
+{
+    font-size: 25px;
+    color: silver;
+    transition: color 0.3s; 
+    
+    
+}
+.nav-links::before {
+    content: ''; 
+    position: absolute;
+    bottom: -1px; 
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: transparent; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.nav-links:hover {
+    color:  rgb(235, 235, 235); 
+    transform: translateY(-5px);
+}
+.nav-links:hover::before {
+    background-color: rgb(235, 235, 235); 
+    transform: scaleX(1); 
+}
+.innerleft
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  
+}
+.prfset
+{
+    display: flex;
+   
+}
+
+.headpara
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Expensheading-img
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.statimg
+{
+    width: 528px;
+    height: 60px;
+}
+.Todaystyle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 420px;
+  
+}
+.Todaystyle1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 375px;
+  
+}
+
+.groceryparent
+{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 260px;
+    color: #404852;
+
+
+}
+.grocery-heading-para
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3cap;
+   
+}
+.groceryleft
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.innerrightmain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:761px;
+    height: 880px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:  rgb(235, 235, 235);
+    width: 40%;
+}
+
+.innerright
+{
+    display: flex;
+    flex-direction: column;
+    color: #273240;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.parentfood
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    /* font-size: medium; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.barsimg
+{
+    display: flex;
+   
+}
+.forgapboxes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
